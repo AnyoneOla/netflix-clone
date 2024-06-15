@@ -1,0 +1,21 @@
+.movies-raw-cards{
+    overflow-x: auto; 
+    height: 200px;
+    display: flex;
+    padding-bottom: 900px; /* Adjust for the height of the scrollbar */
+    margin-bottom: -900px;
+    overflow-y: hidden;
+}
+
+.movies-raw-title{
+    bottom: 180px;
+    padding-left: 0.5%;
+    color: rgba(245, 245, 245, 0.95);
+    font-size: 28px;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.movies-raw-main{
+    padding-left:3%;
+}

@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#background-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+
+}
+
+#background-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    height:50vw;
+}
+
+.main-photo{
+    position: relative;
+}
+
+.poster-title{
+    position: absolute;
+    top: 18vw;
+    left:3%;
+    font-size: 3vw;
+    font-weight: 550;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.poster-description{
+    position: absolute;
+    color: white;
+    top: 21.7vw;
+    left:3%;
+    font-size: 1.3vw;
+    font-weight: 550;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    max-width: 33vw;
+}
+
+.lower-fading{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 280px;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.9));;
+}
+
+.poster-buttons{
+    display: flex;
+    position: absolute;
+    height: 40px;
+    width: 285px;
+    top:29vw;
+    left: 3%;
+    justify-content: space-between;
+    font-weight: 800;
+}
+
+.poster-btn{
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.poster-btn:hover{
+    filter: brightness(70%);
+}
