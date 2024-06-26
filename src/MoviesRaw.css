@@ -19,3 +19,8 @@
 .movies-raw-main{
     padding-left:3%;
 }
+
+.movies-raw-cards::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
